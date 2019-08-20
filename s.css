@@ -1,0 +1,83 @@
+
+            body{
+                max-width:1000px;
+            }
+            body{
+                font-family: Arial,"ヒラギノ角ゴ ProN W3","Hiragino KakuGothix ProN","メイリオ",Meiryo,sans-serif;
+            }
+            h1{
+                font-size:36px;
+            }
+            h2{
+                font-size:24px;
+            }
+            a:hover{
+                background-color:red;color: white}
+            a:active{
+                 background-color:blue;color: white
+        
+            }
+            
+            
+          a,
+a span {
+  display: inline-block;
+}
+a span {
+  transition: .5s;
+}
+a:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+            line.yellow{
+                background:linear-gradient(transparent 50%,yellow 50%);
+            }
+            
+            v{
+                background-color: red;
+                color: white;
+            }
+            
+            figure.sample{
+                float:center;
+            }
+             figure.r{
+                float:left;
+            }
+             figure.l{
+                float:right;
+            }
+            
+            .clearfix:after{
+                content:"";
+                display:block;
+                clear:both;
+            }
+            
+            p.k{
+                text-align: center;
+            }
+            
+            .box5 {
+             padding: 0.5em 0 12em 0;
+             margin: 2em 2em;
+             border: double 5px #4ec4d3;
+                  }
+             /*.box5 p {
+              margin: 0; 
+              padding: 0;
+             }*/
+
+               @media screen and(max-width:600px){
+                   body{font-size:1.6vw;}
+                   h1{font-size:2.6vw;}
+                   a{font-size:5.0vw;}
+                }
+                 img{
+                       max-width: 100%;
+                   }
+               y{text-align:center;}
+               i{text-align:center;}
+             
